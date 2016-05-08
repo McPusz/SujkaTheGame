@@ -10,12 +10,13 @@
 		690FE6A81CDFE3F80061E3A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FE6A71CDFE3F80061E3A9 /* AppDelegate.swift */; };
 		690FE6AA1CDFE3F80061E3A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FE6A91CDFE3F80061E3A9 /* ViewController.swift */; };
 		690FE6AD1CDFE3F80061E3A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690FE6AB1CDFE3F80061E3A9 /* Main.storyboard */; };
-		690FE6AF1CDFE3F80061E3A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690FE6AE1CDFE3F80061E3A9 /* Assets.xcassets */; };
+		690FE6AF1CDFE3F80061E3A9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FE6AE1CDFE3F80061E3A9 /* icon.png */; };
 		690FE6B21CDFE3F80061E3A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690FE6B01CDFE3F80061E3A9 /* LaunchScreen.storyboard */; };
 		690FE6BD1CDFE3F80061E3A9 /* Sujka_The_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FE6BC1CDFE3F80061E3A9 /* Sujka_The_GameTests.swift */; };
 		690FE6C81CDFE3F80061E3A9 /* Sujka_The_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FE6C71CDFE3F80061E3A9 /* Sujka_The_GameUITests.swift */; };
 		690FE6D71CDFE4650061E3A9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FE6D61CDFE4650061E3A9 /* background.png */; };
 		690FE6D91CDFF2130061E3A9 /* piwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FE6D81CDFF2130061E3A9 /* piwo.png */; };
+		695DBB0A1CDFFCFF00F9F65B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 695DBB091CDFFCFF00F9F65B /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 		690FE6A71CDFE3F80061E3A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		690FE6A91CDFE3F80061E3A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		690FE6AC1CDFE3F80061E3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		690FE6AE1CDFE3F80061E3A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		690FE6AE1CDFE3F80061E3A9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		690FE6B11CDFE3F80061E3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		690FE6B31CDFE3F80061E3A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		690FE6B81CDFE3F80061E3A9 /* Sujka The GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sujka The GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +52,7 @@
 		690FE6C91CDFE3F80061E3A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		690FE6D61CDFE4650061E3A9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		690FE6D81CDFF2130061E3A9 /* piwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piwo.png; sourceTree = "<group>"; };
+		695DBB091CDFFCFF00F9F65B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +106,8 @@
 				690FE6A71CDFE3F80061E3A9 /* AppDelegate.swift */,
 				690FE6A91CDFE3F80061E3A9 /* ViewController.swift */,
 				690FE6AB1CDFE3F80061E3A9 /* Main.storyboard */,
-				690FE6AE1CDFE3F80061E3A9 /* Assets.xcassets */,
+				690FE6AE1CDFE3F80061E3A9 /* icon.png */,
+				695DBB091CDFFCFF00F9F65B /* icon.png */,
 				690FE6D81CDFF2130061E3A9 /* piwo.png */,
 				690FE6B01CDFE3F80061E3A9 /* LaunchScreen.storyboard */,
 				690FE6B31CDFE3F80061E3A9 /* Info.plist */,
@@ -245,8 +248,9 @@
 			files = (
 				690FE6B21CDFE3F80061E3A9 /* LaunchScreen.storyboard in Resources */,
 				690FE6D91CDFF2130061E3A9 /* piwo.png in Resources */,
+				695DBB0A1CDFFCFF00F9F65B /* icon.png in Resources */,
 				690FE6D71CDFE4650061E3A9 /* background.png in Resources */,
-				690FE6AF1CDFE3F80061E3A9 /* Assets.xcassets in Resources */,
+				690FE6AF1CDFE3F80061E3A9 /* icon.png in Resources */,
 				690FE6AD1CDFE3F80061E3A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +502,7 @@
 				690FE6CE1CDFE3F80061E3A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		690FE6CF1CDFE3F80061E3A9 /* Build configuration list for PBXNativeTarget "Sujka The GameTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				690FE6D11CDFE3F80061E3A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		690FE6D21CDFE3F80061E3A9 /* Build configuration list for PBXNativeTarget "Sujka The GameUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				690FE6D41CDFE3F80061E3A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
