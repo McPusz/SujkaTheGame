@@ -46,6 +46,9 @@
                                     <constraint firstAttribute="height" constant="122" id="TxR-aB-7cz"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="piwo.png"/>
+                                <connections>
+                                    <action selector="buttonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZfQ-Nk-Nz2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -60,6 +63,10 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="scoreLabel" destination="rh8-aE-YEc" id="lBU-gb-nk6"/>
+                        <outlet property="timerLabel" destination="T3l-WI-Lo3" id="w8s-JM-x8m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
