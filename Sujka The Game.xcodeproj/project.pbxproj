@@ -14,6 +14,8 @@
 		690FE6B21CDFE3F80061E3A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690FE6B01CDFE3F80061E3A9 /* LaunchScreen.storyboard */; };
 		690FE6BD1CDFE3F80061E3A9 /* Sujka_The_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FE6BC1CDFE3F80061E3A9 /* Sujka_The_GameTests.swift */; };
 		690FE6C81CDFE3F80061E3A9 /* Sujka_The_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690FE6C71CDFE3F80061E3A9 /* Sujka_The_GameUITests.swift */; };
+		690FE6D71CDFE4650061E3A9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FE6D61CDFE4650061E3A9 /* background.png */; };
+		690FE6D91CDFF2130061E3A9 /* piwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 690FE6D81CDFF2130061E3A9 /* piwo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		690FE6C31CDFE3F80061E3A9 /* Sujka The GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sujka The GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		690FE6C71CDFE3F80061E3A9 /* Sujka_The_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sujka_The_GameUITests.swift; sourceTree = "<group>"; };
 		690FE6C91CDFE3F80061E3A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		690FE6D61CDFE4650061E3A9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		690FE6D81CDFF2130061E3A9 /* piwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piwo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 				690FE6A91CDFE3F80061E3A9 /* ViewController.swift */,
 				690FE6AB1CDFE3F80061E3A9 /* Main.storyboard */,
 				690FE6AE1CDFE3F80061E3A9 /* Assets.xcassets */,
+				690FE6D81CDFF2130061E3A9 /* piwo.png */,
 				690FE6B01CDFE3F80061E3A9 /* LaunchScreen.storyboard */,
 				690FE6B31CDFE3F80061E3A9 /* Info.plist */,
+				690FE6D51CDFE4370061E3A9 /* Supporting Files */,
 			);
 			path = "Sujka The Game";
 			sourceTree = "<group>";
@@ -123,6 +129,14 @@
 				690FE6C91CDFE3F80061E3A9 /* Info.plist */,
 			);
 			path = "Sujka The GameUITests";
+			sourceTree = "<group>";
+		};
+		690FE6D51CDFE4370061E3A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				690FE6D61CDFE4650061E3A9 /* background.png */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				690FE6B21CDFE3F80061E3A9 /* LaunchScreen.storyboard in Resources */,
+				690FE6D91CDFF2130061E3A9 /* piwo.png in Resources */,
+				690FE6D71CDFE4650061E3A9 /* background.png in Resources */,
 				690FE6AF1CDFE3F80061E3A9 /* Assets.xcassets in Resources */,
 				690FE6AD1CDFE3F80061E3A9 /* Main.storyboard in Resources */,
 			);
